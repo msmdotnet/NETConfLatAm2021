@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\NorthWind.Entities\NorthWind.Entities.csproj" />
+    <ProjectReference Include="..\NorthWind.Sales.DTOs\NorthWind.Sales.DTOs.csproj" />
+    <ProjectReference Include="..\NorthWind.Sales.Entities\NorthWind.Sales.Entities.csproj" />
+    <ProjectReference Include="..\NorthWind.Sales.Events\NorthWind.Sales.Events.csproj" />
+    <ProjectReference Include="..\NorthWind.Sales.UseCasesPorts\NorthWind.Sales.UseCasesPorts.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="GetOrders\" />
+  </ItemGroup>
+
+</Project>
